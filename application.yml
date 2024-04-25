@@ -1,1 +1,5 @@
-db.name: 'https://wasif.com'
+management:
+   endpoints:
+      web:
+         exposure:
+            include: hystrix.stream
